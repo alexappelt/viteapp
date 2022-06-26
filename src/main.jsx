@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import App from "./App";
 import Login from "./routes/login";
-import Home from "./routes/home";
+import Home from "./routes/home/Dashboard";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
